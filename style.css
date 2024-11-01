@@ -1,0 +1,31 @@
+#wp_search_auto_match_wrapper{
+	background: #E9E9E9;
+	z-index: 9999;
+	position: absolute;
+	overflow: hidden;
+	display: none;
+}
+#wp_search_auto_match_wrapper ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#wp_search_auto_match_wrapper li{
+	cursor: pointer;
+	list-style-position: outside;
+	margin: 1px;
+	font: 13px/20px Arial;
+	padding: 4px 5px;
+	text-align: left;
+	color: #2E9AFE;
+}
+#wp_search_auto_match_wrapper, #wp_search_auto_match_wrapper li{
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+#wp_search_auto_match_wrapper .wp_search_auto_match_cur{
+	background: #2E9AFE;
+	color: #fff;
+}

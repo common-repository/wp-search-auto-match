@@ -1,0 +1,1 @@
+jQuery(function(){var e=function(){var e=jQuery('input[name="s"]').eq(0),t=true,n=wp_search_auto_match_info.pluginUrl+"js/wp-search-auto-match.min.js";e.attr("autocomplete","off").bind("focus",function(){if(t){jQuery.ajax({url:n,dataType:"script",complete:function(){t=false}})}})};e()})
